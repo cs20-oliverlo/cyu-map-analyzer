@@ -27,7 +27,7 @@ function level2Solution() {
 
 function level3Solution() {
   // USE BINARY IF STATEMENT
-  if (column >= 3 && column <=7) {
+  if (column >= 3 && column <= 7) {
     outputEl.innerHTML = 'Sand';
   } else {
     outputEl.innerHTML = 'Hills';
@@ -47,7 +47,7 @@ function level5Solution() {
   // USE CHAINED IF STATEMENT
   if (row <= 2) {
     outputEl.innerHTML = 'Hills';
-  } else if ( row >=3 && row <= 5) {
+  } else if ( row >= 3 && row <= 5) {
     outputEl.innerHTML = 'Sand';
   } else {
     outputEl.innerHTML = 'Water';
@@ -127,7 +127,7 @@ function level12Solution() {
 
 function level13Solution() {
   // USE BINARY IF STATEMENT
-  if (row >= 2 && row <=5 && column >= 4 && column <= 9) {
+  if (row >= 2 && row <= 5 && column >= 4 && column <= 9) {
     outputEl.innerHTML = 'Sand';
   } else {
     outputEl.innerHTML = 'Tree';
